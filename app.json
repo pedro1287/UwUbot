@@ -1,0 +1,10 @@
+﻿{
+  "name": "UwU XD v9.7.5F",
+  "description": "Bot de descarga gratuita en Cuba a través de Moodle.",
+  "env": {
+    "bot_token": {
+      "description": "Cree un bot de @BotFather e ingrese su token de API",
+      "value": ""
+    }
+  }
+}
