@@ -1,0 +1,18 @@
+╭─⎔Proxy opcional
+│
+├eva /eva
+├uclv /uclv
+├cursos /cursos
+├eduvirtual /eduvirtual
+│
+╰⊰᯽⊱┈─────╌❋╌─────┈⊰᯽⊱
+
+╭─⎔Proxy obligatorio
+│
+├evea /evea
+├pri sld /prisld
+├hlg sld /hlgsld
+├gtm sld /gtmsld
+├cmw sld /cmwsld
+│
+╰⊰᯽⊱┈─────╌❋╌─────┈⊰᯽⊱
