@@ -66,7 +66,7 @@ def processUploadFiles(filename,filesize,files,update,bot,message,thread=None,jd
         user_info = jdb.get_user(update.message.sender.username)
         cloudtype = user_info['cloudtype']
         host = user_info['moodle_host']
-        if host != 'https://eva.uo.edu.cu/':
+        if host != 'https://moodle.uclv.edu.cu/':
             proxy = ProxyCloud.parse(user_info['proxy'])
             if cloudtype == 'moodle':
                 client = MoodleClient(user_info['moodle_user'],
@@ -123,7 +123,7 @@ def processUploadFiles(filename,filesize,files,update,bot,message,thread=None,jd
                     except:pass
                 return draftlist
             else:
-                if host != 'https://mrrr/' or 'https://rrr/':
+                if host != 'https://moodle.uclv.edu.cu/' or 'https://rrr/':
                     bot.editMessageText(message,'Retrying♻️...')
                     host = user_info['moodle_host']
                     user = user_info['moodle_user']
